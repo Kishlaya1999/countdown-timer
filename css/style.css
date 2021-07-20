@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  background-image: url("../images/background3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.heading {
+  font-size: 60px;
+}
+
+.time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 70px;
+}
+
+.inner-container {
+  background: #dbdbdb;
+  padding: 40px;
+  opacity: 0.7;
+  -webkit-box-shadow: 0 0 20px;
+          box-shadow: 0 0 20px;
+}
+
+.months,
+.weeks,
+.days,
+.hours,
+.minutes,
+.seconds {
+  margin: 0 10px;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  width: 95px;
+  margin: 10px;
+  -webkit-box-shadow: -10px 10px 10px gray;
+          box-shadow: -10px 10px 10px gray;
+}
+
+.number {
+  font-size: 70px;
+  font-weight: 600;
+  opacity: 1;
+}
